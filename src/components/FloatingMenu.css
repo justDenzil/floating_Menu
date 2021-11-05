@@ -35,6 +35,12 @@
     width: 80%;
 }
 
+.menu-body.inactive .upload-logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .upload-logo-text {
     font-family: Inter;
@@ -49,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width:90%;
 }
 
 .menu-body.inactive .upload-logo-text {
