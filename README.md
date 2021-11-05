@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Sidebar Navigation - Floating Menu - Hamburger Menu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Functional React component
 
 ## Available Scripts
 
