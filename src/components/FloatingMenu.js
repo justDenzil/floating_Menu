@@ -4,6 +4,9 @@ import {ReactComponent as UploadLogoImage} from '../assets/Upload_Logo_SVG.svg'
 import {ReactComponent as BackButton} from '../assets/icons/BackButton.svg'
 import {ReactComponent as FrontButton} from '../assets/icons/FrontButton.svg'
 import {ReactComponent as CreateIcon} from '../assets/icons/Create_Icon.svg'
+import {ReactComponent as ManageIcon} from '../assets/icons/Manage_Icon.svg'
+import {ReactComponent as GenerateIcon} from '../assets/icons/Generate_Icon.svg'
+import {ReactComponent as AnalyseIcon} from '../assets/icons/Analyse_Icon.svg'
 
     
 
@@ -40,6 +43,42 @@ function FloatingMenu() {
                         </div>
                         <div className="menu-Item-Title">
                         Create
+                        </div>
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <div className="menu-Item-container">
+                    <a href="./" className="menu-Item">
+                        <div className="menu-Item-Icon">
+                            <ManageIcon />
+                        </div>
+                        <div className="menu-Item-Title">
+                        Manage
+                        </div>
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <div className="menu-Item-container">
+                    <a href="./" className="menu-Item">
+                        <div className="menu-Item-Icon">
+                            <GenerateIcon />
+                        </div>
+                        <div className="menu-Item-Title">
+                        Generate
+                        </div>
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <div className="menu-Item-container">
+                    <a href="./" className="menu-Item">
+                        <div className="menu-Item-Icon">
+                            <AnalyseIcon />
+                        </div>
+                        <div className="menu-Item-Title">
+                        Analyse
                         </div>
                     </a>
                     </div>
