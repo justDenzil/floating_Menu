@@ -81,9 +81,24 @@
     margin-top: 15px;
 }
 
+.dividerBottom {
+    width: 100%;
+    height: 3px;
+    background: #EEEFF8;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
 .mainMenu {
     width: 90%;
 }
+
+.bottom-menu {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+
 
 .menu-UL {
     list-style: none;
@@ -135,5 +150,14 @@
 
 .menu-body .mainMenu .menu-Item-Icon {
     padding-right: 10px;
+}
+
+.down-arrow {
+    width: 14px;
+    height: 12px;
+}
+
+.menu-body.inactive .down-arrow {
+    display: none;
 }
 

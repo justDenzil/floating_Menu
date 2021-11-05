@@ -7,6 +7,10 @@ import {ReactComponent as CreateIcon} from '../assets/icons/Create_Icon.svg'
 import {ReactComponent as ManageIcon} from '../assets/icons/Manage_Icon.svg'
 import {ReactComponent as GenerateIcon} from '../assets/icons/Generate_Icon.svg'
 import {ReactComponent as AnalyseIcon} from '../assets/icons/Analyse_Icon.svg'
+import {ReactComponent as NotificationsIcon} from '../assets/icons/Notifications_Icon.svg'
+import {ReactComponent as SettingsIcon} from '../assets/icons/Settings_Icon.svg'
+import {ReactComponent as UserStatus} from '../assets/icons/User_Status.svg'
+import { ReactComponent as DownArrow } from '../assets/downArrow.svg'
 
     
 
@@ -84,8 +88,54 @@ function FloatingMenu() {
                     </div>
                 </li>
             </ul>
+            <div className="bottom-menu">
+                <ul className="menu-UL">
+                        <li>
+                            <div className="menu-Item-container">
+                            <a href="./" className="menu-Item">
+                                <div className="menu-Item-Icon">
+                                    <NotificationsIcon />
+                                </div>
+                                <div className="menu-Item-Title">
+                                Notifications
+                                </div>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="menu-Item-container">
+                            <a href="./" className="menu-Item">
+                                <div className="menu-Item-Icon">
+                                    <SettingsIcon />
+                                </div>
+                                <div className="menu-Item-Title">
+                                Settings
+                                </div>
+                            </a>
+                            </div>
+                        </li>
+                        <div className="dividerBottom">
+                        </div>
+                        <li>
+                            <div className="menu-Item-container">
+                            <a href="./" className="menu-Item">
+                                <div className="menu-Item-Icon">
+                                    <UserStatus />
+                                </div>
+                                <div className="menu-Item-Title">
+                                Umesh
+                                </div>
+                            </a>
+                            <a href="./" className="menu-Item">
+                                <div className="menu-Item-Icon-Down">
+                                    <DownArrow className="down-arrow"/>
+                                </div>
+                            </a>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
         </div>
-
         </div>
     )
 }
