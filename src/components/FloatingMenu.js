@@ -3,6 +3,7 @@ import './FloatingMenu.css'
 import {ReactComponent as UploadLogoImage} from '../assets/Upload_Logo_SVG.svg'
 import {ReactComponent as BackButton} from '../assets/icons/BackButton.svg'
 import {ReactComponent as FrontButton} from '../assets/icons/FrontButton.svg'
+import {ReactComponent as CreateIcon} from '../assets/icons/Create_Icon.svg'
 
     
 
@@ -23,12 +24,29 @@ function FloatingMenu() {
         </div>
         <div className="upload-logo-container">
             <div className="upload-logo-image">
-                <UploadLogoImage/>
+                <UploadLogoImage className="upload-logo-img"/>
             </div>
             <div className="upload-logo-text">Upload logo</div>
         </div>
         <div className="divider">
         </div>
+        <div className="mainMenu">
+            <ul className="menu-UL">
+                <li>
+                    <div className="menu-Item-container">
+                    <a href="./" className="menu-Item">
+                        <div className="menu-Item-Icon">
+                            <CreateIcon />
+                        </div>
+                        <div className="menu-Item-Title">
+                        Create
+                        </div>
+                    </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         </div>
     )
 }
