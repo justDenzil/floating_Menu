@@ -17,6 +17,17 @@
     width: 70px;
 }
 
+.toggle-menu-btn {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+}
+
+.back-btn {
+    cursor: pointer;
+}
+
 .upload-logo-container {
     width: 90%;
     height: 78px;
@@ -30,17 +41,6 @@
     align-items: center;
     margin-top: 50px;
 }
-
-.menu-body.inactive .upload-logo-container {
-    width: 80%;
-}
-
-.menu-body.inactive .upload-logo-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .upload-logo-text {
     font-family: Inter;
@@ -58,19 +58,18 @@
     width:90%;
 }
 
+.menu-body.inactive .upload-logo-container {
+    width: 80%;
+}
+
+.menu-body.inactive .upload-logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu-body.inactive .upload-logo-text {
     display: none;
-}
-
-.toggle-menu-btn {
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    right: -20px;
-}
-
-.back-btn {
-    cursor: pointer;
 }
 
 .divider {
@@ -92,13 +91,6 @@
 .mainMenu {
     width: 90%;
 }
-
-.bottom-menu {
-    position: absolute;
-    bottom: 10px;
-    width: 90%;
-}
-
 
 .menu-UL {
     list-style: none;
@@ -128,6 +120,10 @@
     text-decoration: none;
 }
 
+.menu-body .mainMenu .menu-Item-Icon {
+    padding-right: 10px;
+}
+
 .menu-body .mainMenu .menu-Item-Title {
     font-family: Inter;
     font-style: normal;
@@ -138,6 +134,17 @@
     opacity: 1;
 }
 
+.bottom-menu {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+
+.down-arrow {
+    width: 14px;
+    height: 12px;
+}
+
 .menu-body.inactive .mainMenu .menu-Item-Title {
     display: none;
 }
@@ -146,15 +153,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.menu-body .mainMenu .menu-Item-Icon {
-    padding-right: 10px;
-}
-
-.down-arrow {
-    width: 14px;
-    height: 12px;
 }
 
 .menu-body.inactive .down-arrow {

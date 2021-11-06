@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './FloatingMenu.css'
+import './FloatingMenu_SubMenu.css'
 import {ReactComponent as UploadLogoImage} from '../assets/Upload_Logo_SVG.svg'
 import {ReactComponent as BackButton} from '../assets/icons/BackButton.svg'
 import {ReactComponent as FrontButton} from '../assets/icons/FrontButton.svg'
@@ -49,6 +50,11 @@ function FloatingMenu() {
                         Create
                         </div>
                     </a>
+                    <ul className="sub-menu-ul">
+                        <li>Contact</li>
+                        <li>Project</li>
+                        <li>Catalogue</li>
+                    </ul>
                     </div>
                 </li>
                 <li>
